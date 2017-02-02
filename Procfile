@@ -1,1 +1,1 @@
-web: (elasticsearch/bin/elasticsearch -Des.http.port=$PORT & && sleep infinity)
+web: (elasticsearch/bin/elasticsearch -Des.http.port=$PORT &) && sleep 999
