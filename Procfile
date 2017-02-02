@@ -1,1 +1,1 @@
-web: elasticsearch/bin/elasticsearch
+web: elasticsearch/bin/elasticsearch -Des.http.port=$PORT
